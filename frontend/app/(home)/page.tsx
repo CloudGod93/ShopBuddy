@@ -211,7 +211,10 @@ export default function Home() {
       <footer className='w-full p-4 bg-card text-center text-gray-400'>
         <p>
           Created by{" "}
-          <Link href='https://github.com/CloudGod5' className='underline'>
+          <Link
+            href='https://github.com/CloudGod5/ShopBuddy'
+            className='underline'
+          >
             CloudGod5
           </Link>
         </p>
