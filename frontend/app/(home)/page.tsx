@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
+import { LoginButton } from "@/components/auth/login-button";
 
 export default function Home() {
   const router = useRouter();
@@ -38,9 +39,13 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className='flex justify-center mb-8'
         >
-          <Button variant='default' size='lg' onClick={handleGetStartedClick}>
-            Get Started
-          </Button>
+          <div>
+            <LoginButton>
+              <Button variant='default' size='lg'>
+                Get Started
+              </Button>
+            </LoginButton>
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

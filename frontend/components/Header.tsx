@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { LoginButton } from "./auth/login-button";
 
 const Header = () => {
   return (
@@ -25,9 +26,11 @@ const Header = () => {
         <Link href='/contact' className='hover:underline'>
           Contact Us
         </Link>
-        <Button variant='default' size='sm' asChild>
-          <Link href='/dashboard'>Get Started</Link>
-        </Button>
+        <LoginButton>
+          <Button variant='default' size='lg'>
+            Get Started
+          </Button>
+        </LoginButton>
       </nav>
     </header>
   );
