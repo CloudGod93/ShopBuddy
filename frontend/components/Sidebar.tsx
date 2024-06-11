@@ -25,64 +25,46 @@ export default function Sidebar() {
       <nav className='flex-1'>
         <ul className='space-y-4'>
           <li>
-            <Link href='/dashboard' className='text-gray-300 hover:text-white'>
+            <Link href='.' className='text-gray-300 hover:text-white'>
               Dashboard
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/projects'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./projects' className='text-gray-300 hover:text-white'>
               Projects
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/customers'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./customers' className='text-gray-300 hover:text-white'>
               Customers
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/reports'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./reports' className='text-gray-300 hover:text-white'>
               Reports
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/guides'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./guides' className='text-gray-300 hover:text-white'>
               Guides
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/billing'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./billing' className='text-gray-300 hover:text-white'>
               Billing
             </Link>
           </li>
           <li>
-            <Link
-              href='/dashboard/shop'
-              className='text-gray-300 hover:text-white'
-            >
+            <Link href='./retail' className='text-gray-300 hover:text-white'>
               Shop
             </Link>
           </li>
           <li>
             <Link
-              href='/dashboard/management'
+              href='./shop-management'
               className='text-gray-300 hover:text-white'
             >
-              Shop Management
+              SB Management
             </Link>
           </li>
         </ul>

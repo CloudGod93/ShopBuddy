@@ -21,7 +21,7 @@ export default function Dashboard() {
               Manage your vehicle repair projects with ease.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/projects'>Go to Projects</Link>
+              <Link href='./projects'>Go to Projects</Link>
             </Button>
           </div>
           <div className='bg-card p-4 shadow-md rounded-md'>
@@ -30,7 +30,7 @@ export default function Dashboard() {
               Browse and order parts for vehicles quickly and efficiently.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/shop'>Go to Shop</Link>
+              <Link href='./shop'>Shop products</Link>
             </Button>
           </div>
           <div className='bg-card p-4 shadow-md rounded-md'>
@@ -40,7 +40,7 @@ export default function Dashboard() {
               work.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/reports'>Go to Reports</Link>
+              <Link href='./reports'>View/Manage Reports</Link>
             </Button>
           </div>
           <div className='bg-card p-4 shadow-md rounded-md'>
@@ -50,7 +50,7 @@ export default function Dashboard() {
               instructions.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/guides'>Go to Guides</Link>
+              <Link href='./guides'>Guides and Tutorials</Link>
             </Button>
           </div>
           <div className='bg-card p-4 shadow-md rounded-md'>
@@ -60,7 +60,7 @@ export default function Dashboard() {
               integration.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/billing'>Go to Billing</Link>
+              <Link href='./billing'>Go to Billing</Link>
             </Button>
           </div>
           <div className='bg-card p-4 shadow-md rounded-md'>
@@ -71,7 +71,7 @@ export default function Dashboard() {
               Manage your customers and view their details.
             </p>
             <Button variant='outline' size='lg'>
-              <Link href='/dashboard/customers'>Go to Customers</Link>
+              <Link href='./customers'>Manage Customers</Link>
             </Button>
           </div>
         </div>

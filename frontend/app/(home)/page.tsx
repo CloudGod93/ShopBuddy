@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import Header from "@/components/Header";
+import Header from "./components/Header";
 
 export default function Home() {
   const router = useRouter();
